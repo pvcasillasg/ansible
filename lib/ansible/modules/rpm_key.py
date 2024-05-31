@@ -21,7 +21,7 @@ options:
     key:
       description:
         - Key that will be modified. Can be a url, a file on the managed node, or a keyid if the key
-          already exists in the database.
+          already exists in the database, url can be http, https or ftp.
       type: str
       required: true
     state:
